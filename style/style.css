@@ -15,7 +15,7 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 2.5rem;
   font-weight: bold;
-  margin: 100px auto;
+  margin-top: 150px;
 }
 
 .hero {
@@ -43,11 +43,19 @@ h2 {
   background-color: var(--secondary-color);
 }
 
-.col-sm-6 {
+.col {
   background-color: var(--secondary-color);
+  padding: 0;
 }
 
 .primary-links {
   font-size: 1rem;
   font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .col {
+    margin: 10px 20px;
+    line-height: 100px;
+  }
 }
