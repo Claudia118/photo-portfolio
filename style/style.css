@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #295f4e;
+  --secondary-color: #ffcdb5;
+  --heading-font-family: "Lora", serif;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero {
+  background-color: var(--primary-color);
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero-btn {
+  background-color: var(--secondary-color);
+  font-size: 1.2rem;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-btn:hover {
+  transform: scale(1.1);
+  background-color: var(--secondary-color);
+}
