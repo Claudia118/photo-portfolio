@@ -21,6 +21,7 @@ h2 {
   color: var(--primary-color);
 }
 
+
 .navbar-name {
   font-size: 2rem;
   font-weight: bold;
@@ -28,6 +29,14 @@ h2 {
   color: var(--secondary-color);
 }
 
+.navbar-name:hover {
+  color: var(--primary-color);
+}
+
+
+.nav-links:hover{
+color: var(--secondary-color);
+}
 .hero {
   background-color: var(--primary-color);
   letter-spacing: 0.1em;
