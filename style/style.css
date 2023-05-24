@@ -16,6 +16,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 150px;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -32,6 +33,7 @@ h2 {
 .hero-btn {
   background-color: var(--secondary-color);
   font-size: 1.2rem;
+  font-weight: 700;
   line-height: 27px;
   padding: 15px 30px;
   font-family: "Roboto", sans-serif;
@@ -54,12 +56,20 @@ h2 {
 }
 
 @media (max-width: 576px) {
+  .hero {
+    padding: 100px 20px;
+  }
+
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   .col {
     margin: 10px 20px;
     line-height: 100px;
+  }
+
+  .col h2 {
+    font-size: 2rem;
   }
 }
