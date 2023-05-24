@@ -55,7 +55,8 @@ h2 {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    text-align: center;
   }
   .col {
     margin: 10px 20px;
