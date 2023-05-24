@@ -6,7 +6,7 @@
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #ffffff;
 }
@@ -54,6 +54,9 @@ h2 {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
   .col {
     margin: 10px 20px;
     line-height: 100px;
