@@ -8,7 +8,14 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 3.5rem;
   font-weight: bold;
-  color: #fff;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 100px auto;
 }
 
 .hero {
@@ -16,6 +23,10 @@ h1 {
   letter-spacing: 0.1em;
   text-align: center;
   padding: 160px 20px;
+  background: url(/images/garden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-btn {
@@ -30,4 +41,13 @@ h1 {
 .hero-btn:hover {
   transform: scale(1.1);
   background-color: var(--secondary-color);
+}
+
+.col-sm-6 {
+  background-color: var(--secondary-color);
+}
+
+.primary-links {
+  font-size: 1rem;
+  font-weight: 600;
 }
