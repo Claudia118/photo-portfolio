@@ -109,6 +109,9 @@ h2 {
   background-color: var(--primary-color);
 }
 
+.gallery-container {
+  margin: 50px 50px;
+}
 @media (max-width: 576px) {
   .navbar-name {
     font-size: 1.5rem;
