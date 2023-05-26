@@ -93,6 +93,7 @@ h2 {
 }
 
 .page-container h1 {
+  font-size: 3.5rem;
   color: var(--primary-color);
   text-transform: uppercase;
 }
