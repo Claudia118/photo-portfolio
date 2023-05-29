@@ -23,6 +23,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .navbar-name {
@@ -80,10 +81,15 @@ a {
 }
 
 .footer-section {
-  font-size: 2rem;
-  color: var(--primary-color);
+  font-size: 2.2rem;
   display: block;
   text-align: center;
+  margin: 0 auto;
+  background: var(--secondary-color);
+}
+
+.footer-section a {
+  color: var(--primary-color);
 }
 
 .footer-section i {
